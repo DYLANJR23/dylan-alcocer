@@ -1,0 +1,84 @@
+<html>
+<head>
+
+<title>formulario HTML</title>
+</head>
+<body>
+
+
+
+<h1>Matricula al campeonato de LINAFA</h1>
+
+ <figure>
+
+<img src="linafa.jpg" alt="Tenis" width=300 height="200">
+
+</figure>
+
+<form action="procesar.php" method="POST">
+
+
+<!-- Etiqueta de campo -->
+<label for="nombre">Nombre:</label>
+<!-Campo de entrada ->
+<input type="text" id="nombre" name="nombre" required>
+<br><br>
+
+<!-- Etiqueta de campo -->
+<label for="nombre">Nombre del participante :</label>
+<!-Campo de entrada ->
+<input type="text" id="nombre" name="nombre" required>
+<br><br>
+
+<!-- Menú desplegable -->
+        <label for="opciones">Sexo:</label>
+        <select id="opciones" name="opciones">
+            <option value="Femenino">Femenino</option>
+            <option value="Masculino">Masculino</option>
+            <option value="No contesta">No contesta</option>
+        </select>
+        <br><br> 
+
+<!-- Área de texto -->
+<label for="mensaje">Direccion:</label>
+<textarea id="mensaje" name="mensaje" rows="4"
+cols="30"></textarea>
+<br><br>
+
+      
+
+<!-- Menú desplegable -->
+        <label for="opciones">categoria:</label>
+        <select id="opciones" name="opciones">
+            <option value="Sub16">sub16</option>
+            <option value="Sub17">Sub17</option>
+            <option value="Sub20">Sub20</option>
+        </select>
+        <br><br>       
+
+<!-- Menú desplegable -->
+        <label for="opciones">Provincias:</label>
+        <select id="opciones" name="opciones">
+            <option value="Guanacaste">Guanacaste</option>
+            <option value="Limon">Limon</option>
+            <option value="Alajuela">Alajuela</option>
+            <option value="Heredia">Heredia</option>
+            <option value= San jose">San jose</option>
+            <option value="Cartago">Cartago</option>
+            <option value="Puntarenas">Puntarenas</option>
+
+        </select>
+        <br><br>       
+ 
+
+
+
+
+        <!-- Botón -->
+        <button type="submit">Completar</button>
+    </form>
+
+
+
+</body>
+</html>
